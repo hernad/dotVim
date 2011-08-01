@@ -1,0 +1,5 @@
+*.o
+*.log
+ruby/command-t/Makefile
+.git_orig
+ruby/command-t/ext.bundle
