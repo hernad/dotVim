@@ -31,6 +31,3 @@
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
-[submodule "bundle/vim-chef"]
-	path = bundle/vim-chef
-	url = https://github.com/t9md/vim-chef
