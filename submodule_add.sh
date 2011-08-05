@@ -11,3 +11,6 @@ git submodule add https://github.com/tpope/vim-haml.git bundle/vim-haml
 git submodule add https://github.com/tpope/vim-rails.git bundle/vim-rails
 git submodule add https://github.com/tpope/vim-surround.git bundle/vim-surround 
 git submodule add https://github.com/t9md/vim-chef bundle/vim-chef
+git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
+
+
