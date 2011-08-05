@@ -1,3 +1,5 @@
+git submodule add https://github.com/tpope/vim-pathogen.git vim-pathogen
+
 git submodule add https://github.com/vim-scripts/dbext.vim.git bundle/dbext.vim
 git submodule add https://github.com/mattn/gist-vim bundle/gist-vim
 git submodule add https://github.com/msanders/snipmate.vim.git bundle/snipmate.vim
@@ -8,4 +10,4 @@ git submodule add https://github.com/tpope/vim-fugitive.git bundle/vim-fugitive
 git submodule add https://github.com/tpope/vim-haml.git bundle/vim-haml
 git submodule add https://github.com/tpope/vim-rails.git bundle/vim-rails
 git submodule add https://github.com/tpope/vim-surround.git bundle/vim-surround 
-git submodule add https://github.com/tpope/vim-pathogen.git vim-pathogen 
+git submodule add https://github.com/t9md/vim-chef bundle/vim-chef
