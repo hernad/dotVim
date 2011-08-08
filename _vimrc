@@ -90,5 +90,86 @@ nnoremap <leader><down> 10000000gg
 
 
 let g:github_user = 'hernad'
-let g:github_token = 'xxxxxx'
+let g:github_token = '0b35b43824d627bc07bb2353b058b182'
 
+" http://newbiedoc.sourceforge.net/tutorials/vim/example-vim.html.en
+map! ,h1 <h1></h1><ESC>2ba
+map tv :echo 'Tekuće vrijeme je ' . strftime('%c')<CR>
+
+
+" https://gist.github.com/971862
+
+if has("mac") || has("macunix")
+
+map å <M-a>
+map ∫ <M-b>
+map ç <M-c>
+map ∂ <M-d>
+map ´ <M-e>
+map ƒ <M-f>
+map © <M-g>
+map ˙ <M-h>
+map ˆ <M-i>
+map ∆ <M-j>
+map ˚ <M-k>
+map ¬ <M-l>
+map µ <M-m>
+map ˜ <M-n>
+map ø <M-o>
+map π <M-p>
+map œ <M-q>
+map ® <M-r>
+map ß <M-s>
+map † <M-t>
+map ¨ <M-u>
+map √ <M-v>
+map ∑ <M-w>
+map ≈ <M-x>
+map ¥ <M-y>
+map Ω <M-z>
+
+map Å <M-A>
+map ı <M-B>
+map Ç <M-C>
+map Î <M-D>
+map ´ <M-E>
+map Ï <M-F>
+map ˝ <M-G>
+map Ó <M-H>
+map ˆ <M-I>
+map Ô <M-J>
+map  <M-K>
+map Ò <M-L>
+map Â <M-M>
+map ˜ <M-N>
+map Ø <M-O>
+map ∏ <M-P>
+map Œ <M-Q>
+map ‰ <M-R>
+map Í <M-S>
+map ˇ <M-T>
+map ¨ <M-U>
+map ◊ <M-V>
+map „ <M-W>
+map ˛ <M-X>
+map Á <M-Y>
+map ¸ <M-Z>
+
+
+
+endif
+
+map <A-a> :ChefFindAny<CR> 
+
+
+" autocmd VimEnter waits until all initialization is finished (plugins are loaded)
+" autocmd VimEnter * NERDTree
+" wincmd p puts the cursor in the main window (rather than the NERDTree window)
+" autocmd VimEnter * wincmd p
+
+set wrap
+map <F1> :NERDTree<CR>:wincmd p<CR>
+map <F3> <C-]>
+map <F2> <C-O>
+
+au! BufWritePost .vimrc source %
