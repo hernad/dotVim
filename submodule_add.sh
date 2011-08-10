@@ -15,3 +15,5 @@ git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
 git submodule add https://github.com/majutsushi/tagbar.git bundle/tagbar
 git submodule add https://github.com/gmarik/vundle.git bundle/vundle
 
+git submodule add https://github.com/MarcWeber/vim-addon-manager.git bundle/vam
+
