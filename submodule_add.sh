@@ -13,3 +13,5 @@ git submodule add https://github.com/tpope/vim-surround.git bundle/vim-surround
 git submodule add https://github.com/t9md/vim-chef bundle/vim-chef
 git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
 git submodule add https://github.com/majutsushi/tagbar.git bundle/tagbar
+git submodule add https://github.com/gmarik/vundle.git bundle/vundle
+
