@@ -16,3 +16,5 @@ git submodule add https://github.com/majutsushi/tagbar.git bundle/tagbar
 git submodule add https://github.com/gmarik/vundle.git bundle/vundle
 git submodule add https://github.com/godlygeek/tabular.git bundle/tabular
 git submodule add https://github.com/scrooloose/nerdcommenter.git bundle/nerdcommenter
+git submodule add https://github.com/xolox/vim-easytags.git bundle/easytags
+
