@@ -12,8 +12,13 @@ git submodule add https://github.com/tpope/vim-rails.git bundle/vim-rails
 git submodule add https://github.com/tpope/vim-surround.git bundle/vim-surround 
 git submodule add https://github.com/t9md/vim-chef bundle/vim-chef
 git submodule add https://github.com/scrooloose/nerdtree.git bundle/nerdtree
-git submodule add https://github.com/majutsushi/tagbar.git bundle/tagbar
+#git submodule add https://github.com/majutsushi/tagbar.git bundle/tagbar
 git submodule add https://github.com/gmarik/vundle.git bundle/vundle
 git submodule add https://github.com/godlygeek/tabular.git bundle/tabular
 git submodule add https://github.com/scrooloose/nerdcommenter.git bundle/nerdcommenter
 git submodule add https://github.com/vim-scripts/mru.vim.git bundle/mru
+
+git submodule remove bundle/tagbar
+git rm  --cache bundle/tagbar
+rm -r -f bundle/tagbar
+git submodule add git://github.com/hernad/tagbar.git bundle/tagbar_hernad
